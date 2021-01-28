@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DCB3EF5925C2E4970086B4A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3EF5825C2E4970086B4A8 /* main.swift */; };
+		DCB3EF6725C2E4CB0086B4A8 /* SherlockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3EF6625C2E4CB0086B4A8 /* SherlockTests.swift */; };
+		DCB3EF7325C2E5290086B4A8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB3EF5825C2E4970086B4A8 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +27,20 @@
 /* Begin PBXFileReference section */
 		DCB3EF5525C2E4970086B4A8 /* Sherlock and the Valid String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sherlock and the Valid String"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB3EF5825C2E4970086B4A8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DCB3EF6425C2E4CB0086B4A8 /* SherlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SherlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB3EF6625C2E4CB0086B4A8 /* SherlockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherlockTests.swift; sourceTree = "<group>"; };
+		DCB3EF6825C2E4CB0086B4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DCB3EF5225C2E4970086B4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3EF6125C2E4CB0086B4A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				DCB3EF5725C2E4970086B4A8 /* Sherlock and the Valid String */,
+				DCB3EF6525C2E4CB0086B4A8 /* SherlockTests */,
 				DCB3EF5625C2E4970086B4A8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DCB3EF5525C2E4970086B4A8 /* Sherlock and the Valid String */,
+				DCB3EF6425C2E4CB0086B4A8 /* SherlockTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +74,15 @@
 				DCB3EF5825C2E4970086B4A8 /* main.swift */,
 			);
 			path = "Sherlock and the Valid String";
+			sourceTree = "<group>";
+		};
+		DCB3EF6525C2E4CB0086B4A8 /* SherlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB3EF6625C2E4CB0086B4A8 /* SherlockTests.swift */,
+				DCB3EF6825C2E4CB0086B4A8 /* Info.plist */,
+			);
+			path = SherlockTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +105,23 @@
 			productReference = DCB3EF5525C2E4970086B4A8 /* Sherlock and the Valid String */;
 			productType = "com.apple.product-type.tool";
 		};
+		DCB3EF6325C2E4CB0086B4A8 /* SherlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB3EF6925C2E4CB0086B4A8 /* Build configuration list for PBXNativeTarget "SherlockTests" */;
+			buildPhases = (
+				DCB3EF6025C2E4CB0086B4A8 /* Sources */,
+				DCB3EF6125C2E4CB0086B4A8 /* Frameworks */,
+				DCB3EF6225C2E4CB0086B4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SherlockTests;
+			productName = SherlockTests;
+			productReference = DCB3EF6425C2E4CB0086B4A8 /* SherlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +132,9 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					DCB3EF5425C2E4970086B4A8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					DCB3EF6325C2E4CB0086B4A8 = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -110,9 +153,20 @@
 			projectRoot = "";
 			targets = (
 				DCB3EF5425C2E4970086B4A8 /* Sherlock and the Valid String */,
+				DCB3EF6325C2E4CB0086B4A8 /* SherlockTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB3EF6225C2E4CB0086B4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCB3EF5125C2E4970086B4A8 /* Sources */ = {
@@ -120,6 +174,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCB3EF5925C2E4970086B4A8 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3EF6025C2E4CB0086B4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB3EF6725C2E4CB0086B4A8 /* SherlockTests.swift in Sources */,
+				DCB3EF7325C2E5290086B4A8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +326,42 @@
 			};
 			name = Release;
 		};
+		DCB3EF6A25C2E4CB0086B4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 637M7C336C;
+				INFOPLIST_FILE = SherlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ievadap.SherlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DCB3EF6B25C2E4CB0086B4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 637M7C336C;
+				INFOPLIST_FILE = SherlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ievadap.SherlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -280,6 +379,15 @@
 			buildConfigurations = (
 				DCB3EF5D25C2E4970086B4A8 /* Debug */,
 				DCB3EF5E25C2E4970086B4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB3EF6925C2E4CB0086B4A8 /* Build configuration list for PBXNativeTarget "SherlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB3EF6A25C2E4CB0086B4A8 /* Debug */,
+				DCB3EF6B25C2E4CB0086B4A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
